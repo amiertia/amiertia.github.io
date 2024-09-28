@@ -9,7 +9,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f4f4f4;
+            background-color: #f05d5d;
+        }
+        .profile-box {
+            width: 350px;
+            padding: 20px;
+            background-color: #e0c5c5;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         .image-container {
             text-align: center;
@@ -22,47 +31,59 @@
             height: 200px;
             object-fit: cover;
             border-radius: 50%;
+            border: 3px solid #333;
+            margin-bottom: 15px;
         }
         h1, p {
             margin: 10px 0;
             font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #777;
         }
         .social-links {
             margin-top: 15px;
         }
         .social-links a {
             text-decoration: none;
-            color: #333;
+            color: #fff;
             font-family: Arial, sans-serif;
             padding: 10px;
             border-radius: 5px;
-            background-color: #f0f0f0;
+            background-color: #333;
             transition: background-color 0.3s;
             margin: 0 5px;
         }
         .social-links a:hover {
-            background-color: #ddd;
+            background-color: #d76e6e;
         }
         .date-time {
             margin-top: 20px;
             font-family: Arial, sans-serif;
-            color: #555;
+            color: #e73f3f;
             font-size: 16px;
         }
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="C:\Users\Ami Ertia Muhaini\Downloads\Ami Ertia Muhaini_Pas Foto.jpeg" alt="Gambar Lingkaran" class="circle-image">
-        <h1>Ami Ertia Muhaini</h1>
-        <p>1202223227</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ami-ertia-muhaini-5b670824b/" target="_blank">LinkedIn</a>
-            <a href="https://www.instagram.com/ami" target="_blank">Instagram</a>
-            <a href="https://github.com/amiertia" target="_blank">GitHub</a>
-        </div>
-        <div class="date-time" id="dateTimeDisplay">
-            
+    <div class="profile-box">
+        <div class="image-container">
+            <img src="C:\Users\Ami Ertia Muhaini\Downloads\Ami Ertia Muhaini_Pas Foto.jpeg" alt="Gambar Lingkaran" class="circle-image">
+            <h1>Ami Ertia Muhaini</h1>
+            <p>1202223227</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ami-ertia-muhaini-5b670824b/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/ami" target="_blank">Instagram</a>
+                <a href="https://github.com/amiertia" target="_blank">GitHub</a>
+            </div>
+            <div class="date-time" id="dateTimeDisplay">
+                
+            </div>
         </div>
     </div>
 
